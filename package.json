@@ -26,7 +26,7 @@
     "prepublishOnly": "npm run build",
     "unit-test": "mocha",
     "debug-unit-tests": "mocha --inspect-brk",
-    "style-dictionary": "style-dictionary build",
+    "style-dictionary": "style-dictionary build"
   },
   "devDependencies": {
     "@types/assert": "^1.5.6",
