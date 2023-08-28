@@ -1,0 +1,10 @@
+{
+  "color": {
+    "bg": {
+      "default": {
+        "value": "{sd-color.white}",
+        "type": "color"
+      }
+    }
+  }
+}

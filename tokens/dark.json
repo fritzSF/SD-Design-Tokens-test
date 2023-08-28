@@ -1,0 +1,20 @@
+{
+  "color": {
+    "bg": {
+      "default": {
+        "value": "{neutral.800}",
+        "type": "color"
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "bg": {
+        "primary": {
+          "value": "{sd-color.superdesk}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

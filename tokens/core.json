@@ -285,5 +285,15 @@
       "value": "hsla(214, 13%, 14%, 1)",
       "type": "color"
     }
+  },
+  "button": {
+    "color": {
+      "bg": {
+        "primary": {
+          "value": "{sd-color.dark-cyan}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
