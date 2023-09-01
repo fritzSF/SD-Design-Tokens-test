@@ -1,0 +1,211 @@
+{
+  "color": {
+    "bg": {
+      "default": {
+        "value": "{neutral.900}",
+        "type": "color"
+      },
+      "muted-1": {
+        "value": "{neutral.850}",
+        "type": "color"
+      },
+      "muted-2": {
+        "value": "{neutral.800}",
+        "type": "color"
+      },
+      "muted-3": {
+        "value": "{neutral.700}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{neutral.000}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{neutral.200}",
+        "type": "color"
+      },
+      "muted-2": {
+        "value": "{neutral.400}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{neutral.850}",
+        "type": "color"
+      }
+    },
+    "line": {
+      "x-light": {
+        "value": "{neutral.750}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{neutral.700}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{neutral.600}",
+        "type": "color"
+      },
+      "strong": {
+        "value": "{neutral.500}",
+        "type": "color"
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "fg": {
+        "primary": {
+          "value": "{sd-color.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{neutral.050}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{neutral.200}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "primary": {
+          "value": "{sd-color.dark-cyan}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{neutral.400}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{neutral.600}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "topbar": {
+    "color": {
+      "bg": {
+        "value": "{neutral.850}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{neutral.050}",
+        "type": "color"
+      }
+    }
+  },
+  "navbar": {
+    "color": {
+      "bg": {
+        "value": "{brand.primary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.56",
+              "space": "hsl"
+            }
+          }
+        }
+      }
+    },
+    "item": {
+      "color": {
+        "bg": {
+          "active": {
+            "value": "{brand.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.64",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{brand.primary}",
+            "type": "color",
+            "$extensions": {}
+          },
+          "default": {
+            "value": "{neutral.000}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "color": {
+      "bg": {
+        "value": "{neutral.750}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{color.text.muted}",
+        "type": "color"
+      }
+    },
+    "height": {
+      "value": "{dimension.6}",
+      "type": "sizing"
+    }
+  },
+  "list-item": {
+    "color": {
+      "bg": {
+        "value": "{color.bg.muted-3}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{color.text.default}",
+        "type": "color"
+      }
+    },
+    "radius": {
+      "value": "{border-radius.4}",
+      "type": "borderRadius"
+    },
+    "shadow": {
+      "value": {
+        "x": "0",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.4)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "border": {
+      "value": {
+        "width": "{border-width.1}",
+        "color": "{color.line.medium}"
+      },
+      "type": "border"
+    },
+    "heading": {
+      "color": {
+        "fg": {
+          "value": "{color.text.default}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "brand": {
+    "primary": {
+      "value": "#ca212c",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#110f0f",
+      "type": "color"
+    }
+  },
+  "button": {
+    "color": {
+      "bg": {
+        "primary": {
+          "value": "{brand.primary}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "primary": {
+          "value": "{sd-color.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{brand.secondary}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{neutral.500}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "primary": {
+          "value": "{brand.primary}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{brand.secondary}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{neutral.200}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "topbar": {
+    "color": {
+      "bg": {
+        "value": "{brand.secondary}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{neutral.050}",
+        "type": "color"
+      }
+    }
+  },
+  "navbar": {
+    "color": {
+      "bg": {
+        "value": "{brand.primary}",
+        "type": "color"
+      }
+    },
+    "item": {
+      "color": {
+        "bg": {
+          "active": {
+            "value": "{neutral.000}",
+            "type": "color"
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{brand.primary}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{neutral.000}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "color": {
+      "bg": {
+        "value": "{neutral.150}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{color.text.muted}",
+        "type": "color"
+      }
+    },
+    "height": {
+      "value": "{dimension.7}",
+      "type": "sizing"
+    }
+  },
+  "font-family": {
+    "primary": {
+      "value": "\"Lato\", sans-serif",
+      "type": "fontFamilies"
+    },
+    "secondary": {
+      "value": "\"Titillium Web\", sans-serif",
+      "type": "fontFamilies"
+    }
+  }
+}

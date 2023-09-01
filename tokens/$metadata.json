@@ -1,7 +1,13 @@
 {
   "tokenSetOrder": [
     "core",
-    "light",
-    "dark"
+    "Components/button",
+    "Components/topbar",
+    "Components/navbar",
+    "Components/list-item",
+    "Components/footer",
+    "Theme/light",
+    "Theme/dark",
+    "Brands/brandOne"
   ]
 }

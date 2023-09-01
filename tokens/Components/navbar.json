@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "color": {
+      "bg": {
+        "value": "{brand.primary}",
+        "type": "color"
+      }
+    },
+    "item": {
+      "color": {
+        "bg": {
+          "active": {
+            "value": "{neutral.000}",
+            "type": "color"
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{brand.primary}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{neutral.000}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

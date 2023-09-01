@@ -1,0 +1,14 @@
+{
+  "topbar": {
+    "color": {
+      "bg": {
+        "value": "{neutral.700}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{neutral.050}",
+        "type": "color"
+      }
+    }
+  }
+}
