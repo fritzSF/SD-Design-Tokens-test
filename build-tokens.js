@@ -19,15 +19,16 @@ const getStyleDictionaryConfig = (theme) => {
         log: "warn",
         source: [
             `tokens/core.json`,
-            `tokens/${theme}.json`,
+            `tokens/Components/**/*.json`,
+            `tokens/Theme/${theme}.json`,
         ],
         platforms: {
             css: {
                 transformGroup: "css",
-                buildPath: `build/${theme}/`,
+                buildPath: `build/css/`,
                 files: [
                     {
-                        destination: `tokens.css`,
+                        destination: `${theme}.css`,
                         format: "css/variables",
                     },
                 ],
