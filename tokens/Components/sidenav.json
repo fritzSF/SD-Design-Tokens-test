@@ -1,0 +1,38 @@
+{
+  "sidenav": {
+    "color": {
+      "bg": {
+        "value": "{brand.primary}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color.line.light}",
+        "type": "color"
+      }
+    },
+    "item": {
+      "color": {
+        "bg": {
+          "active": {
+            "value": "{neutral.000}",
+            "type": "color"
+          },
+          "default": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "active": {
+            "value": "{brand.primary}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{neutral.000}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

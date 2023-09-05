@@ -41,7 +41,7 @@
       },
       "border": {
         "primary": {
-          "value": "{brand.primary}",
+          "value": "{button.color.bg.primary}",
           "type": "color"
         },
         "secondary": {
@@ -67,7 +67,7 @@
       }
     }
   },
-  "navbar": {
+  "sidenav": {
     "color": {
       "bg": {
         "value": "{brand.primary}",
@@ -123,6 +123,14 @@
     "secondary": {
       "value": "\"Titillium Web\", sans-serif",
       "type": "fontFamilies"
+    }
+  },
+  "color": {
+    "interactive": {
+      "normal": {
+        "value": "{brand.primary}",
+        "type": "color"
+      }
     }
   }
 }

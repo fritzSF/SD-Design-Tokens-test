@@ -1,12 +1,8 @@
 {
-  "navbar": {
+  "filterpane": {
     "color": {
       "bg": {
         "value": "{color.bg.default}",
-        "type": "color"
-      },
-      "border": {
-        "value": "{color.line.light}",
         "type": "color"
       }
     }

@@ -3,7 +3,7 @@
     "color": {
       "bg": {
         "primary": {
-          "value": "{sd-color.dark-cyan}",
+          "value": "{color.interactive.normal}",
           "type": "color"
         },
         "secondary": {
@@ -31,7 +31,7 @@
       },
       "border": {
         "primary": {
-          "value": "{sd-color.dark-cyan}",
+          "value": "{color.interactive.normal}",
           "type": "color"
         },
         "secondary": {
