@@ -1,0 +1,69 @@
+{
+  "searchbar": {
+    "color": {
+      "bg": {
+        "normal": {
+          "value": "{color.bg.muted-2}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.bg.muted-2}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{color.bg.default}",
+          "type": "color"
+        },
+        "filled": {
+          "value": "{color.bg.muted-1}",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "placeholder": {
+          "value": "#",
+          "type": "color"
+        },
+        "content": {
+          "value": "{color.text.default}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{searchbar.color.bg.normal}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.line.light}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.interactive.normal}",
+          "type": "color"
+        },
+        "filled": {
+          "value": "{color.line.light}",
+          "type": "color"
+        }
+      }
+    },
+    "shadow": {
+      "focused": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.interactive.subtle}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "radius": {
+      "value": "{border-radius.full}",
+      "type": "borderRadius"
+    }
+  }
+}

@@ -3,9 +3,12 @@
     "core",
     "Components/button",
     "Components/topbar",
-    "Components/navbar",
+    "Components/sidenav",
     "Components/list-item",
     "Components/footer",
+    "Components/searchbar",
+    "Components/filterpane",
+    "Components/navbar",
     "Theme/light",
     "Theme/dark",
     "Brands/brandOne"
