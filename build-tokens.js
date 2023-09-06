@@ -19,8 +19,8 @@ const getStyleDictionaryConfig = (theme) => {
         log: "warn",
         source: [
             `tokens/core.json`,
-            `tokens/Components/**/*.json`,
             `tokens/Theme/${theme}.json`,
+            `tokens/Components/**/*.json`,
         ],
         platforms: {
             css: {
