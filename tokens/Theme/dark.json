@@ -74,8 +74,47 @@
     },
     "interactive": {
       "normal": {
-        "value": "{sd-color.dark-cyan}",
+        "value": "{brand.primary}",
         "type": "color"
+      },
+      "hover": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "active": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.25",
+              "space": "hsl"
+            }
+          }
+        }
       }
     }
   },
@@ -87,7 +126,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{neutral.050}",
+          "value": "{color.text.muted}",
           "type": "color"
         },
         "tertiary": {

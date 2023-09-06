@@ -21,11 +21,11 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{neutral.800}",
+          "value": "{color.text.default}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{neutral.500}",
+          "value": "{color.text.muted}",
           "type": "color"
         }
       },
