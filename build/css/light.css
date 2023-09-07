@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Sep 2023 10:52:33 GMT
+ * Generated on Thu, 07 Sep 2023 12:30:15 GMT
  */
 
 :root {
@@ -41,14 +41,14 @@
   --dimension-0-5: 8rem * 0.5;
   --dimension-1-5: 8rem * 1.5;
   --border-radius-0: 0;
-  --border-radius-2: 2;
-  --border-radius-3: 3;
-  --border-radius-4: 4;
-  --border-radius-8: 8;
-  --border-radius-12: 12;
-  --border-radius-16: 16;
-  --border-radius-24: 24;
-  --border-radius-full: 1000;
+  --border-radius-2: 2px;
+  --border-radius-3: 3px;
+  --border-radius-4: 4px;
+  --border-radius-8: 8px;
+  --border-radius-12: 12px;
+  --border-radius-16: 16px;
+  --border-radius-24: 24px;
+  --border-radius-full: 1000px;
   --border-width-0: 0;
   --border-width-1: 1;
   --border-width-2: 2;
@@ -112,14 +112,19 @@
   --color-interactive-active: hsl(198, 50%, 50%);
   --color-interactive-subtle: hsl(198, 50%, 50%);
   --button-color-fg-primary: #fcfcfd;
-  --button-color-fg-secondary: hsla( 214, 13%, 14%, 1);
-  --button-color-fg-tertiary: hsla( 214, 13%, 44%, 1);
+  --button-color-fg-secondary: hsla( 214, 13%, 5%, 1);
+  --button-color-fg-tertiary: hsla( 214, 13%, 34%, 1);
   --button-color-border-secondary: hsla( 214, 13%, 44%, 1);
   --button-color-border-tertiary: hsla( 214, 13%, 74%, 1);
   --button-color-border-primary: hsl(198, 50%, 50%);
   --button-color-bg-primary: hsl(198, 50%, 50%);
   --button-color-bg-secondary: rgba(0,0,0,0);
   --button-color-bg-tertiary: rgba(0,0,0,0);
+  --button-height-large: 8rem * 5;
+  --button-height-small: 8rem * 4;
+  --button-padding-inline-large: 8rem * 2;
+  --button-padding-inline-small: 8rem * 1.5;
+  --button-width-full: 100%;
   --topbar-color-bg: hsla( 214, 13%, 20%, 1);
   --topbar-color-fg: hsla( 214, 13%, 97%, 1);
   --sidebav-color-bg: hsl(198, 50%, 50%);
@@ -133,7 +138,7 @@
   --footer-height: 8rem * 6;
   --list-item-color-bg: hsla( 214, 13%, 100%, 1);
   --list-item-color-fg: hsla( 214, 13%, 5%, 1);
-  --list-item-radius: 4;
+  --list-item-radius: 4px;
   --list-item-shadow: [object Object];
   --list-item-padding-inline: 8rem * 2;
   --list-item-padding-block: 8rem * 2;
@@ -156,7 +161,7 @@
   --searchbar-color-border-active: hsl(198, 50%, 50%);
   --searchbar-color-border-filled: hsla( 214, 13%, 74%, 1);
   --searchbar-shadow-focused: [object Object];
-  --searchbar-radius: 1000;
+  --searchbar-radius: 1000px;
   --sidenav-color-bg: hsl(198, 50%, 50%);
   --sidenav-color-border: hsla( 214, 13%, 74%, 1);
   --sidenav-item-color-bg-active: hsla( 214, 13%, 100%, 1);
