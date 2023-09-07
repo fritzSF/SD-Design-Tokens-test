@@ -43,7 +43,7 @@
   },
   "size": {
     "base-increment": {
-      "value": "8",
+      "value": "8px",
       "type": "sizing"
     }
   },
@@ -155,35 +155,35 @@
       "type": "borderRadius"
     },
     "2": {
-      "value": "2",
+      "value": "2px",
       "type": "borderRadius"
     },
     "3": {
-      "value": "3",
+      "value": "3px",
       "type": "borderRadius"
     },
     "4": {
-      "value": "4",
+      "value": "4px",
       "type": "borderRadius"
     },
     "8": {
-      "value": "8",
+      "value": "8px",
       "type": "borderRadius"
     },
     "12": {
-      "value": "12",
+      "value": "12px",
       "type": "borderRadius"
     },
     "16": {
-      "value": "16",
+      "value": "16px",
       "type": "borderRadius"
     },
     "24": {
-      "value": "24",
+      "value": "24px",
       "type": "borderRadius"
     },
     "full": {
-      "value": "1000",
+      "value": "1000px",
       "type": "borderRadius"
     }
   },
