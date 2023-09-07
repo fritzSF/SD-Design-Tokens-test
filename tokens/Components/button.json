@@ -43,6 +43,34 @@
           "type": "color"
         }
       }
+    },
+    "height": {
+      "large": {
+        "value": "{dimension.5}",
+        "type": "sizing"
+      },
+      "small": {
+        "value": "{dimension.4}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "inline": {
+        "large": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{spacing.1-5}",
+          "type": "spacing"
+        }
+      }
+    },
+    "width": {
+      "full": {
+        "value": "100%",
+        "type": "sizing"
+      }
     }
   }
 }
