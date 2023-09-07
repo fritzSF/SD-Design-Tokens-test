@@ -43,7 +43,7 @@
   },
   "size": {
     "base-increment": {
-      "value": "8px",
+      "value": "10px",
       "type": "sizing"
     }
   },
