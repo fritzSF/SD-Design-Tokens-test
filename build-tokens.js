@@ -1,10 +1,44 @@
 const StyleDictionary = require("style-dictionary");
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
 
 // Look for args passed on the command line
 const args = require("minimist")(process.argv.slice(2));
 
 // If no theme arg was passed, default to Primary theme
 const theme = args.theme ? args.theme : "primary";
+
+// format helpers from style-dictionary
+const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
+
+// sd-transforms, 2nd parameter for options can be added
+// See docs: https://github.com/tokens-studio/sd-transforms
+registerTransforms(StyleDictionary);
+
+// example value transform, which just returns the token as is
+StyleDictionary.registerTransform({
+    type: "value",
+    name: "myCustomTransform",
+    matcher: (token) => { },
+    transformer: (token) => {
+        return token;
+    }
+})
+
+// example css format
+StyleDictionary.registerFormat({
+    name: 'customSDFormat',
+    formatter: function ({ dictionary, file, options }) {
+        const { outputReferences } = options;
+        return `${fileHeader({ file })}:root {
+            ${formattedVariables(
+            {
+                format: 'css',
+                dictionary,
+                outputReferences
+            }
+        )}}`;
+    }
+});
 
 console.log(`🚧 Compiling tokens with the ${theme.toUpperCase()} theme`);
 
@@ -24,7 +58,7 @@ const getStyleDictionaryConfig = (theme) => {
         ],
         platforms: {
             css: {
-                transformGroup: "css",
+                transformGroup: "tokens-studio",
                 buildPath: `build/css/`,
                 files: [
                     {
