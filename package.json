@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.11.1",
+    "snake-case": "^3.0.4",
     "style-dictionary": "latest"
   },
   "devDependencies": {

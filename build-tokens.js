@@ -1,4 +1,5 @@
 const StyleDictionary = require("style-dictionary");
+const { transforms } = require('@tokens-studio/sd-transforms');
 const { registerTransforms } = require('@tokens-studio/sd-transforms');
 
 // Look for args passed on the command line
@@ -40,6 +41,11 @@ StyleDictionary.registerFormat({
     }
 });
 
+StyleDictionary.registerTransformGroup({
+    name: 'custom/tokens-studio',
+    transforms: [...transforms, 'name/cti/kebab'].filter(transform => transform !== 'ts/size/px'),
+});
+
 console.log(`🚧 Compiling tokens with the ${theme.toUpperCase()} theme`);
 
 /**
@@ -53,12 +59,12 @@ const getStyleDictionaryConfig = (theme) => {
         log: "warn",
         source: [
             `tokens/core.json`,
-            `tokens/Theme/${theme}.json`,
             `tokens/Components/**/*.json`,
+            `tokens/Theme/${theme}.json`,
         ],
         platforms: {
             css: {
-                transformGroup: "tokens-studio",
+                transformGroup: "custom/tokens-studio",
                 buildPath: `build/css/`,
                 files: [
                     {

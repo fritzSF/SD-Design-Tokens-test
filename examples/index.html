@@ -1,17 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <meta name="theme-color" content="#ffffff">
+    <!-- <link rel="icon" href="favicon.svg" sizes="any">
+    <link rel="mask-icon" href="mask-icon.svg" sizes="any" color="#000000">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">-->
+    <title>Newshub</title>
 </head>
-
 <body>
-    <main>
-        <h1>Welcome to My Website</h1>
+    <main class="newshub-app">
+        <header class="newshub-app__header">
+            <h1 class="newshub-app__header-title">Newshub</h1>
+        </header>
+        <section class="newshub-app__content">
+            <div class="navbar navbar--main">
+                <button class="navbar__icon-button" style="margin-inline-end: var(--spacing-2);">
+                    <i class="icon--close-thin"></i>
+                </button>
+                <div class="search">
+                    <form class="search__form search__form--active" role="search" aria-label="search">
+                        <input type="text" name="q" class="search__input" placeholder="Search for..." aria-label="Search for..." value="">
+                        <div class="search__form-buttons">
+                            <button class="search__button-clear" aria-label="Clear search" type="reset">
+                                <svg fill="none" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="m9 18c4.9706 0 9-4.0294 9-9 0-4.97056-4.0294-9-9-9-4.97056 0-9 4.02944-9 9 0 4.9706 4.02944 9 9 9zm4.9884-12.58679-3.571 3.57514 3.5826 3.58675-1.4126 1.4143-3.58252-3.5868-3.59233 3.5965-1.41255-1.4142 3.59234-3.59655-3.54174-3.54592 1.41254-1.41422 3.54174 3.54593 3.57092-3.57515z" fill="var(--color-text-default)" fill-rule="evenodd" opacity="1"></path>
+                                </svg>
+                            </button>
+                            <button class="search__button-submit" type="submit" aria-label="Search">
+                                <i class="icon--search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="nh-button__group">
+                    <button class="nh-button nh-button--secondary">Advanced Search</button>
+                </div>
+            </div>
+            <div class="sidenav">
+                <ul class="sidenav__list">
+                    <li class="sidenav__item">
+                        <a href="#" class="sidenav__link">
+                            <i class="icon--home"></i>
+                        </a>
+                    </li>
+                    <li class="sidenav__item">
+                        <a href="#" class="sidenav__link sidenav__link--active">
+                            <i class="icon--text"></i>
+                        </a>
+                    </li>
+                    <li class="sidenav__item">
+                        <a href="#" class="sidenav__link">
+                            <i class="icon--calendar"></i>
+                        </a>
+                    </li>
+                    <li class="sidenav__item">
+                        <a href="#" class="sidenav__link">
+                            <i class="icon--bookmark"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="panel panel--filters">
+                <div class="panel__header ">
+                    <ul class="tab-menu">
+                        <li class="tab-menu__item">
+                            <a href="#" class="tab-menu__link">Topics</a>
+                        </li>
+                        <li class="tab-menu__item">
+                            <a href="#" class="tab-menu__link">My Topics</a>
+                        </li>
+                        <li class="tab-menu__item">
+                            <a href="#" class="tab-menu__link tab-menu__link--active">Filters</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel__content ">
+                    <div class="panel__content-group">
+                        <h6 class="panel__heading--small">Source</h6>
+                        <div class="form-check__group">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="AP">
+                                <label class="form-check-label" for="AP">The Associated Press</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="CP">
+                                <label class="form-check-label" for="CP">The Canadian Press</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Reuters">
+                                <label class="form-check-label" for="Reuters">Reuters</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Bloomberg">
+                                <label class="form-check-label" for="Bloomberg">Bloomberg</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel__content-group">
+                        <h6 class="panel__heading--small">Place</h6>
+                        <div class="form-check__group">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Amsterdam">
+                                <label class="form-check-label" for="Amsterdam">Amsterdam</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Belgrade">
+                                <label class="form-check-label" for="Belgrade">Belgrade</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Berlin">
+                                <label class="form-check-label" for="Berlin">Berlin</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Chicago">
+                                <label class="form-check-label" for="Chicago">Chicago</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="NewYork">
+                                <label class="form-check-label" for="NewYork">New York</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Prague">
+                                <label class="form-check-label" for="Prague">Prague</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Sydney">
+                                <label class="form-check-label" for="Sydney">Sydney</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Tokyo">
+                                <label class="form-check-label" for="Tokyo">Tokyo</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="Toronto">
+                                <label class="form-check-label" for="Toronto">Toronto</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel__content-group">
+                        <h6 class="panel__heading--small">Published</h6>
+                        <div class="nh-button__group nh-button__group--vertical">
+                            <button class="nh-button nh-button--tertiary w-100">Today</button>
+                            <button class="nh-button nh-button--tertiary w-100">This Week</button>
+                            <button class="nh-button nh-button--tertiary w-100">This Month</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel__footer">
+                    <div class="nh-button__group">
+                        <button class="nh-button nh-button--secondary w-100">Cancel</button>
+                        <button class="nh-button nh-button--primary w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <ul class="article__list">
+                    <li class="article__item">
+                        <div class="article__item-content">
+                            <h4 class="article__item-headline">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</h4>
+                            <div class="article__item-meta">This // 209 words // 21:23 Sep 7th, 2023</div>
+                            <p class="article__item-body">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+                                Praesent commodo cursus magna, vel scelerisque nisl consectetur et. </p>
+                        </div>
+                        <div class="article__item-actions">
+                            <button class="nh-icon-button nh-icon-button--tertiary">
+                                <i class="icon--more"></i>
+                            </button>
+                            <button class="nh-icon-button nh-icon-button--primary">
+                                <i class="icon--bookmark-add"></i>
+                            </button>
+                        </div>
+                    </li>
+
+                    <li class="article__item">
+                        <div class="article__item-content">
+                            <h4 class="article__item-headline">Vestibulum id ligula porta felis euismod sempe sed posuere consectetur est at lobortis</h4>
+                            <div class="article__item-meta">Something // 243 words // 20:10 Sep 7th, 2023</div>
+                            <p class="article__item-body">Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. 
+                                Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        </div>
+                        <div class="article__item-actions">
+                            <button class="nh-icon-button nh-icon-button--tertiary">
+                                <i class="icon--more"></i>
+                            </button>
+                            <button class="nh-icon-button nh-icon-button--primary">
+                                <i class="icon--bookmark-add"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                
+
+            </div>
+            <!-- <div class="panel panel--preview">Preview</div> -->
+        </section>
+        <footer class="newshub-app__footer">
+            <div class="newshub-app__footer-inner">
+                <span>Terms of use</span>
+                <span>Privacy and accessibility</span>
+                <span>Contact</span>
+            </div>
+
+        </footer>
     </main>
 </body>
-
 </html>
