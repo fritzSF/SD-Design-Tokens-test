@@ -73,7 +73,7 @@
         "blur": "4px",
         "spread": "0",
         "color": "hsla(0, 0%, 0%, 0.4)",
-        "type": "innerShadow"
+        "type": "dropShadow"
       },
       "type": "boxShadow"
     }
