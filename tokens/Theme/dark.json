@@ -292,7 +292,7 @@
         "y": "2px",
         "blur": "4px",
         "spread": "0",
-        "color": "rgba(0,0,0,0.4)",
+        "color": "hsla(0, 0%, 0%, 0.4)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -311,6 +311,17 @@
           "type": "color"
         }
       }
+    },
+    "shadow-hover": {
+      "value": {
+        "x": "0",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "hsla(0, 0%, 0%, 0.8)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }
