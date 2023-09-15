@@ -387,5 +387,23 @@
       "value": "700",
       "type": "fontWeights"
     }
+  },
+  "font-size": {
+    "base": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "x-small": {
+      "value": "{font-size.base} * 0.75",
+      "type": "fontSizes"
+    },
+    "small": {
+      "value": "{font-size.base} * 0.875",
+      "type": "fontSizes"
+    },
+    "medium": {
+      "value": "{font-size.base} * 1",
+      "type": "fontSizes"
+    }
   }
 }

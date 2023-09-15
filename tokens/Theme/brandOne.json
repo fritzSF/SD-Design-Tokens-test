@@ -1,4 +1,105 @@
 {
+  "color": {
+    "bg": {
+      "default": {
+        "value": "{neutral.000}",
+        "type": "color"
+      },
+      "muted-1": {
+        "value": "{neutral.050}",
+        "type": "color"
+      },
+      "muted-2": {
+        "value": "{neutral.100}",
+        "type": "color"
+      },
+      "muted-3": {
+        "value": "{neutral.125}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{neutral.900}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{neutral.600}",
+        "type": "color"
+      },
+      "muted-2": {
+        "value": "{neutral.500}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{neutral.000}",
+        "type": "color"
+      }
+    },
+    "line": {
+      "x-light": {
+        "value": "{neutral.150}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{neutral.200}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{neutral.300}",
+        "type": "color"
+      },
+      "strong": {
+        "value": "{neutral.600}",
+        "type": "color"
+      }
+    },
+    "interactive": {
+      "normal": {
+        "value": "{brand.primary}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "active": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "value": "{color.interactive.normal}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.25",
+              "space": "hsl"
+            }
+          }
+        }
+      }
+    }
+  },
   "brand": {
     "primary": {
       "value": "#ca212c",
@@ -123,14 +224,6 @@
     "secondary": {
       "value": "\"Titillium Web\", sans-serif",
       "type": "fontFamilies"
-    }
-  },
-  "color": {
-    "interactive": {
-      "normal": {
-        "value": "{brand.primary}",
-        "type": "color"
-      }
     }
   }
 }

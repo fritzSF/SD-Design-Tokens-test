@@ -140,7 +140,7 @@
       }
     }
   },
-  "sidebav": {
+  "sidenav": {
     "color": {
       "bg": {
         "value": "{brand.primary}",

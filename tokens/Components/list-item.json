@@ -20,7 +20,7 @@
         "y": "2px",
         "blur": "4px",
         "spread": "0",
-        "color": "rgba(0,0,0,0.2)",
+        "color": "hsla(0, 0%, 0%, 0.2)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -65,6 +65,17 @@
         "value": "{font-weight.bold}",
         "type": "fontWeights"
       }
+    },
+    "shadow-hover": {
+      "value": {
+        "x": "0",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "hsla(0, 0%, 0%, 0.4)",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }
