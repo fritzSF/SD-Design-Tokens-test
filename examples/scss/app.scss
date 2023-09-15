@@ -1,4 +1,7 @@
 @import '../../build/css/dark.css';
+//@import '../../build/css/light.css';
+//@import '../../build/css/brandone.css';
+
 @import 'icons.scss';
 
 // Reset
@@ -242,7 +245,7 @@ li, p {
 	padding-block: var(--list-item-padding-block);
 	padding-inline-start: var(--list-item-padding-inline-start);
 	padding-inline-end: var(--list-item-padding-inline-end);
-	border: 1px solid var(--list-item-border);
+	border: var(--list-item-border);
 	box-shadow: var(--list-item-shadow);
 	display: flex;
 	transition: all 0.2s ease;
@@ -448,12 +451,12 @@ li, p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--color-bg-muted-1);
+	background-color: var(--color-bg-muted-2);
 	transition: all 0.2s ease;
 	border-inline-end: 1px solid var(--color-bg-muted-2);
 	&:hover {
 		cursor: pointer;
-		background-color: var(--color-bg-muted-2);
+		background-color: var(--color-bg-muted-1);
 
 	}
 }
