@@ -326,7 +326,7 @@
           "x": "0",
           "y": "0",
           "blur": "2px",
-          "spread": "0",
+          "spread": "1px",
           "color": "hsla(0, 0%, 0%, 0.4)",
           "type": "dropShadow"
         }
