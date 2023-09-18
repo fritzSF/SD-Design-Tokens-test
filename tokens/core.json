@@ -362,11 +362,11 @@
   },
   "font-family": {
     "primary": {
-      "value": "\"Roboto\", \"Helvetica Neue\", Arial, sans-serif",
+      "value": "'Roboto', 'Helvetica Neue', Arial, sans-serif",
       "type": "fontFamilies"
     },
     "secondary": {
-      "value": "\"Merriweather\", serif",
+      "value": "'Merriweather', serif",
       "type": "fontFamilies"
     }
   },
