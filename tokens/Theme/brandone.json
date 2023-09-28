@@ -142,7 +142,7 @@
       },
       "border": {
         "primary": {
-          "value": "{button.color.bg.primary}",
+          "value": "{button.color.bg.primary-default}",
           "type": "color"
         },
         "secondary": {

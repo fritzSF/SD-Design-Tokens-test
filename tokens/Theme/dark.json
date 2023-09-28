@@ -126,7 +126,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{color.text.muted}",
+          "value": "{color.text.default}",
           "type": "color"
         },
         "tertiary": {
@@ -135,13 +135,87 @@
         }
       },
       "border": {
-        "secondary": {
+        "secondary-default": {
           "value": "{neutral.400}",
           "type": "color"
         },
-        "tertiary": {
+        "tertiary-default": {
           "value": "{neutral.600}",
           "type": "color"
+        }
+      }
+    },
+    "shadow": {
+      "primary": {
+        "hover": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "3",
+            "color": "hsla(0, 0%, 0%, 0.16)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(0, 0%, 0%, 0.20)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "secondary": {
+        "hover": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "3",
+            "color": "hsla(214, 13%, 90%, 0.12)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(214, 13%, 90%, 0.18)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "tertiary": {
+        "hover": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "3",
+            "color": "hsla(214, 13%, 90%, 0.10)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(214, 13%, 90%, 0.14)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }

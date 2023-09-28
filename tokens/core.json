@@ -276,8 +276,7 @@
     },
     "600": {
       "value": "hsla( {neutral.base} 34%, 1)",
-      "type": "color",
-      "$extensions": {}
+      "type": "color"
     },
     "700": {
       "value": "hsla( {neutral.base} 20%, 1)",
