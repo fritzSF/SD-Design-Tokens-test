@@ -1,7 +1,8 @@
-@import '../../build/css/dark.css';
+//@import '../../build/css/dark.css';
 //@import '../../build/css/light.css';
-//@import '../../build/css/brandone.css';
+@import '../../build/css/brandone.css';
 
+@import 'fonts.scss';
 @import 'icons.scss';
 
 // Reset
@@ -363,19 +364,39 @@ li, p {
 	background-color: transparent;
 	border: 1px solid;
 	&.nh-button--primary {
-		background-color: var(--button-color-bg-primary);
-		border-color: var(--button-color-border-primary);
+		background-color: var(--button-color-bg-primary-default);
+		border-color: var(--button-color-border-primary-default);
 		color: var(--button-color-fg-primary);
+		&:hover {
+			border-color: var(--button-color-border-primary-hover);
+			box-shadow: var(--button-shadow-primary-hover);
+		}
+		&:active {
+			border-color: var(--button-color-border-primary-hover);
+			box-shadow: var(--button-shadow-primary-active);
+		}
 	}
 	&.nh-button--secondary {
-		background-color: var(--button-color-bg-secondary);
-		border-color: var(--button-color-border-secondary);
+		background-color: var(--button-color-bg-secondary-default);
+		border-color: var(--button-color-border-secondary-default);
 		color: var(--button-color-fg-secondary);
+		&:hover {
+			box-shadow: var(--button-shadow-secondary-hover);
+		}
+		&:active {
+			box-shadow: var(--button-shadow-secondary-active);
+		}
 	}
 	&.nh-button--tertiary {
-		background-color: var(--button-color-bg-tertiary);
-		border-color: var(--button-color-border-tertiary);
+		background-color: var(--button-color-bg-tertiary-default);
+		border-color: var(--button-color-border-tertiary-default);
 		color: var(--button-color-fg-tertiary);
+		&:hover {
+			box-shadow: var(--button-shadow-tertiary-hover);
+		}
+		&:active {
+			box-shadow: var(--button-shadow-tertiary-active);
+		}
 	}
 }
 
@@ -395,18 +416,18 @@ li, p {
 		--icon-color-default: var(--color-interactive-normal);
 		color: var(--color-interactive-normal);
 		&:hover {
-			border-color: var(--button-color-border-primary);
+			border-color: var(--button-color-border-primary-default);
 		}
 	}
 	&.nh-icon-button--secondary {
 		--icon-color-default: var(--button-color-fg-secondary);
 		color: var(--button-color-fg-secondary);
 		&:hover {
-			border-color: var(--button-color-border-secondary);
+			border-color: var(--button-color-border-secondary-default);
 		}
 	}
 	&.nh-icon-button--tertiary {
-		--icon-color-default: var(--button-color-fg-tertiary);
+		--icon-color-default: var(--button-color-fg-tertiary-default);
 		color: var(--button-color-fg-tertiary);
 		&:hover {
 			border-color: var(--button-color-border-tertiary);
