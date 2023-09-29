@@ -9,6 +9,7 @@
     "Components/searchbar",
     "Components/filterpane",
     "Components/navbar",
+    "Components/icon-button",
     "Theme/light",
     "Theme/dark",
     "Theme/brandone"
