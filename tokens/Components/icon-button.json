@@ -1,0 +1,111 @@
+{
+  "icon-button": {
+    "color": {
+      "bg": {
+        "primary-default": {
+          "value": "rgba(0,0,0,0.01)",
+          "type": "color"
+        },
+        "secondary-default": {
+          "value": "rgba(0,0,0,0.01)",
+          "type": "color"
+        },
+        "tertiary-default": {
+          "value": "rgba(0,0,0,0.01)",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "primary": {
+          "value": "{color.interactive.normal}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.text.default}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{color.text.muted-2}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "primary-default": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
+        "primary-hover": {
+          "value": "{color.interactive.normal}",
+          "type": "color"
+        },
+        "secondary-default": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
+        "secondary-hover": {
+          "value": "{neutral.500}",
+          "type": "color"
+        },
+        "tertiary-default": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
+        "tertiary-hover": {
+          "value": "{neutral.300}",
+          "type": "color"
+        }
+      }
+    },
+    "size": {
+      "large": {
+        "value": "{dimension.5}",
+        "type": "sizing"
+      },
+      "small": {
+        "value": "{dimension.4}",
+        "type": "sizing"
+      }
+    },
+    "shadow": {
+      "primary": {
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(0, 0%, 0%, 0.16)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "secondary": {
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(214, 13%, 10%, 0.16)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "tertiary": {
+        "active": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "hsla(214, 13%, 10%, 0.10)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}
