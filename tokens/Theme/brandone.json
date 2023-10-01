@@ -56,7 +56,7 @@
     },
     "interactive": {
       "normal": {
-        "value": "{brand.primary}",
+        "value": "{sd-color.orange}",
         "type": "color"
       },
       "hover": {
@@ -114,7 +114,7 @@
     "color": {
       "bg": {
         "primary": {
-          "value": "{brand.primary}",
+          "value": "{neutral.700}",
           "type": "color"
         },
         "secondary": {
@@ -156,7 +156,7 @@
       }
     },
     "radius": {
-      "value": "{border-radius.4}",
+      "value": "{border-radius.12}",
       "type": "borderRadius"
     }
   },
