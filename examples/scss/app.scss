@@ -352,7 +352,7 @@ li, p {
 	justify-content: center;
 	height: var(--button-height-large);
 	padding-inline: var(--button-padding-inline-large);
-	border-radius: var(--border-radius-4);
+	border-radius: var(--button-radius);
 	font-family: var(--font-family-primary);
 	font-weight: var(--font-weight-medium);
 	font-size: 12px;
@@ -408,7 +408,7 @@ li, p {
 	height: var(--icon-button-size-large);
 	width: var(--icon-button-size-large);
 	padding: 0;
-	border-radius: var(--border-radius-4);
+	border-radius: var(--button-radius);
 	cursor: pointer;
 	transition: all 0.2s ease;
 	background-color: transparent;
