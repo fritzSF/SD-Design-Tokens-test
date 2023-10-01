@@ -56,7 +56,7 @@
     },
     "interactive": {
       "normal": {
-        "value": "{sd-color.orange}",
+        "value": "{brand.primary}",
         "type": "color"
       },
       "hover": {
@@ -113,11 +113,11 @@
   "button": {
     "color": {
       "bg": {
-        "primary": {
-          "value": "{neutral.700}",
+        "primary-default": {
+          "value": "{brand.primary}",
           "type": "color"
         },
-        "secondary": {
+        "secondary-default": {
           "value": "rgba(0,0,0,0)",
           "type": "color"
         },
@@ -156,7 +156,7 @@
       }
     },
     "radius": {
-      "value": "{border-radius.12}",
+      "value": "{border-radius.4}",
       "type": "borderRadius"
     }
   },

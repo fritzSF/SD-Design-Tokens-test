@@ -43,11 +43,11 @@
       },
       "border": {
         "primary-default": {
-          "value": "{color.interactive.normal}",
+          "value": "{button.color.bg.primary-default}",
           "type": "color"
         },
         "primary-hover": {
-          "value": "{color.interactive.normal}",
+          "value": "{button.color.bg.primary-default}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
