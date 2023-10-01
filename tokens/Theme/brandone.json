@@ -154,6 +154,10 @@
           "type": "color"
         }
       }
+    },
+    "radius": {
+      "value": "{border-radius.4}",
+      "type": "borderRadius"
     }
   },
   "topbar": {

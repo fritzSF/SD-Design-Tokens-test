@@ -170,6 +170,10 @@
           "type": "boxShadow"
         }
       }
+    },
+    "radius": {
+      "value": "{border-radius.4}",
+      "type": "borderRadius"
     }
   }
 }
