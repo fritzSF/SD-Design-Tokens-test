@@ -114,7 +114,7 @@
     "color": {
       "bg": {
         "primary-default": {
-          "value": "{sd-color.orange}",
+          "value": "{color.interactive.normal}",
           "type": "color"
         },
         "secondary-default": {
@@ -156,7 +156,7 @@
       }
     },
     "radius": {
-      "value": "{border-radius.12}",
+      "value": "{border-radius.4}",
       "type": "borderRadius"
     }
   },
