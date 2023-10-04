@@ -114,7 +114,7 @@
     "color": {
       "bg": {
         "primary-default": {
-          "value": "{color.interactive.normal}",
+          "value": "{neutral.800}",
           "type": "color"
         },
         "secondary-default": {

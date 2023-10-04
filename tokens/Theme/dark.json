@@ -74,7 +74,7 @@
     },
     "interactive": {
       "normal": {
-        "value": "{sd-color.superdesk}",
+        "value": "{sd-color.magenta}",
         "type": "color"
       },
       "hover": {
