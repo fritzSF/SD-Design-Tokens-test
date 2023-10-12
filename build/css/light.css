@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Oct 2023 15:01:00 GMT
+ * Generated on Thu, 12 Oct 2023 15:09:06 GMT
  */
 
 :root {
@@ -78,7 +78,7 @@
   --neutral-base: 214, 13%,;
   --neutral-050: hsla( 214, 13%, 97%, 1);
   --neutral-000: hsla( 214, 13%, 100%, 1);
-  --brand-primary: hsl(19, 50%, 50%);
+  --brand-primary: hsl(198, 50%, 50%);
   --brand-secondary: hsl(216, 45%, 14%);
   --spacing-0: 0px;
   --spacing-1: 8px;
@@ -103,9 +103,9 @@
   --font-size-x-large: 32;
   --font-size-xx-large: 40;
   --text-transform-uppercase: uppercase;
-  --button-color-bg-primary-default: hsl(19, 50%, 50%);
-  --button-color-bg-primary-hover: hsl(19 50% 45%);
-  --button-color-bg-primary-active: hsl(19 50% 55%);
+  --button-color-bg-primary-default: hsl(198, 50%, 50%);
+  --button-color-bg-primary-hover: hsl(198 50% 45%);
+  --button-color-bg-primary-active: hsl(198 50% 55%);
   --button-color-bg-primary-disabled: hsla( 214, 13%, 74%, 1);
   --button-color-bg-secondary-default: rgba(0,0,0,0.01);
   --button-color-bg-tertiary-default: rgba(0,0,0,0.01);
@@ -115,8 +115,8 @@
   --button-color-fg-secondary: hsla( 214, 13%, 14%, 1);
   --button-color-fg-tertiary: hsl(214 13% 44% / 0.7);
   --button-color-fg-disabled: hsla( 214, 13%, 64%, 1);
-  --button-color-border-primary-default: hsl(19, 50%, 50%);
-  --button-color-border-primary-hover: hsl(19 50% 35%);
+  --button-color-border-primary-default: hsl(198, 50%, 50%);
+  --button-color-border-primary-hover: hsl(198 50% 35%);
   --button-color-border-primary-disabled: hsla( 214, 13%, 74%, 1);
   --button-color-border-secondary-default: hsla( 214, 13%, 54%, 1);
   --button-color-border-secondary-disabled: hsla( 214, 13%, 74%, 1);
@@ -141,11 +141,11 @@
   --icon-button-color-bg-primary-default: rgba(255,255,255,0.01);
   --icon-button-color-bg-secondary-default: rgba(255,255,255,0.01);
   --icon-button-color-bg-tertiary-default: rgba(255,255,255,0.01);
-  --icon-button-color-fg-primary: hsl(19, 50%, 50%);
+  --icon-button-color-fg-primary: hsl(198, 50%, 50%);
   --icon-button-color-fg-secondary: hsla( 214, 13%, 5%, 1);
   --icon-button-color-fg-tertiary: hsla( 214, 13%, 44%, 1);
   --icon-button-color-border-primary-default: hsla( 214, 13%, 74%, 1);
-  --icon-button-color-border-primary-hover: hsl(19, 50%, 50%);
+  --icon-button-color-border-primary-hover: hsl(198, 50%, 50%);
   --icon-button-color-border-secondary-default: hsla( 214, 13%, 74%, 1);
   --icon-button-color-border-secondary-hover: hsla( 214, 13%, 44%, 1);
   --icon-button-color-border-tertiary-default: hsla( 214, 13%, 74%, 1);
@@ -181,16 +181,16 @@
   --searchbar-color-fg-content: hsla( 214, 13%, 5%, 1);
   --searchbar-color-border-normal: hsla( 214, 13%, 94%, 1);
   --searchbar-color-border-hover: hsla( 214, 13%, 74%, 1);
-  --searchbar-color-border-active: hsl(19, 50%, 50%);
+  --searchbar-color-border-active: hsl(198, 50%, 50%);
   --searchbar-color-border-filled: hsla( 214, 13%, 74%, 1);
-  --searchbar-shadow-focused: inset 0 0 0 3px hsl(19 50% 50% / 0.25);
+  --searchbar-shadow-focused: inset 0 0 0 3px hsl(198 50% 50% / 0.25);
   --searchbar-radius: 1000px;
   --searchbar-button-color-bg-default: hsla( 214, 13%, 64%, 1);
-  --sidenav-color-bg: hsl(19, 50%, 50%);
+  --sidenav-color-bg: hsl(198, 50%, 50%);
   --sidenav-color-border: hsla( 214, 13%, 74%, 1);
   --sidenav-item-color-bg-active: hsla( 214, 13%, 100%, 1);
   --sidenav-item-color-bg-default: rgba(255,255,255,0);
-  --sidenav-item-color-fg-active: hsl(19, 50%, 50%);
+  --sidenav-item-color-fg-active: hsl(198, 50%, 50%);
   --sidenav-item-color-fg-default: hsla( 214, 13%, 100%, 1);
   --toggle-button-color-bg-default: rgba(255,255,255,0.01);
   --toggle-button-color-bg-active: hsla( 214, 13%, 44%, 1);
@@ -241,8 +241,8 @@
   --color-line-light: hsla( 214, 13%, 74%, 1);
   --color-line-medium: hsla( 214, 13%, 64%, 1);
   --color-line-strong: hsla( 214, 13%, 34%, 1);
-  --color-interactive-normal: hsl(19, 50%, 50%);
-  --color-interactive-hover: hsl(19 50% 45%);
-  --color-interactive-active: hsl(19 50% 55%);
-  --color-interactive-subtle: hsl(19 50% 50% / 0.25);
+  --color-interactive-normal: hsl(198, 50%, 50%);
+  --color-interactive-hover: hsl(198 50% 45%);
+  --color-interactive-active: hsl(198 50% 55%);
+  --color-interactive-subtle: hsl(198 50% 50% / 0.25);
 }

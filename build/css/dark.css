@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Oct 2023 15:01:02 GMT
+ * Generated on Thu, 12 Oct 2023 15:09:07 GMT
  */
 
 :root {
@@ -78,7 +78,7 @@
   --neutral-base: 214, 23%,;
   --neutral-050: hsla( 214, 23%, 97%, 1);
   --neutral-000: hsla( 214, 23%, 100%, 1);
-  --brand-primary: hsl(19, 50%, 50%);
+  --brand-primary: hsl(198, 50%, 50%);
   --brand-secondary: hsl(216, 45%, 14%);
   --spacing-0: 0px;
   --spacing-1: 8px;
@@ -189,7 +189,7 @@
   --searchbar-button-color-bg-default: hsla( 214, 23%, 34%, 1);
   --sidenav-color-bg: hsl(216 45% 18.3%);
   --sidenav-color-border: hsl(214 23% 28%);
-  --sidenav-item-color-bg-active: lch(9.7 9.13 49.2);
+  --sidenav-item-color-bg-active: lch(10.6 6.06 237);
   --sidenav-item-color-bg-default: rgba(255,255,255,0);
   --sidenav-item-color-fg-active: hsl(185 33.3% 60%);
   --sidenav-item-color-fg-default: hsla( 214, 23%, 100%, 1);
