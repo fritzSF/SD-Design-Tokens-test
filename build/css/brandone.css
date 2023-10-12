@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Oct 2023 15:01:00 GMT
+ * Generated on Thu, 12 Oct 2023 15:01:03 GMT
  */
 
 :root {
@@ -78,8 +78,8 @@
   --neutral-base: 214, 13%,;
   --neutral-050: hsla( 214, 13%, 97%, 1);
   --neutral-000: hsla( 214, 13%, 100%, 1);
-  --brand-primary: hsl(19, 50%, 50%);
-  --brand-secondary: hsl(216, 45%, 14%);
+  --brand-primary: #ca212c;
+  --brand-secondary: #110f0f;
   --spacing-0: 0px;
   --spacing-1: 8px;
   --spacing-2: 16px;
@@ -89,8 +89,8 @@
   --spacing-6: 48px;
   --spacing-0-5: 4px;
   --spacing-1-5: 12px;
-  --font-family-primary: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  --font-family-secondary: 'Merriweather', serif;
+  --font-family-primary: 'Lato', sans-serif;
+  --font-family-secondary: 'Titillium Web', sans-serif;
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 600;
@@ -103,25 +103,29 @@
   --font-size-x-large: 32;
   --font-size-xx-large: 40;
   --text-transform-uppercase: uppercase;
-  --button-color-bg-primary-default: hsl(19, 50%, 50%);
-  --button-color-bg-primary-hover: hsl(19 50% 45%);
-  --button-color-bg-primary-active: hsl(19 50% 55%);
+  --button-color-bg-primary-default: #ca212c;
+  --button-color-bg-primary-hover: hsl(356 71.9% 41.5%);
+  --button-color-bg-primary-active: hsl(356 71.9% 51.5%);
   --button-color-bg-primary-disabled: hsla( 214, 13%, 74%, 1);
-  --button-color-bg-secondary-default: rgba(0,0,0,0.01);
+  --button-color-bg-secondary-default: rgba(0,0,0,0);
   --button-color-bg-tertiary-default: rgba(0,0,0,0.01);
   --button-color-bg-secondary-hover: hsla( 214, 13%, 94%, 1);
+  --button-color-bg-tertiary: rgba(0,0,0,0);
   --button-color-fg-primary: #fcfcfd;
   --button-color-fg-primary-disabled: hsla( 214, 13%, 90%, 1);
-  --button-color-fg-secondary: hsla( 214, 13%, 14%, 1);
+  --button-color-fg-secondary: #110f0f;
   --button-color-fg-tertiary: hsl(214 13% 44% / 0.7);
   --button-color-fg-disabled: hsla( 214, 13%, 64%, 1);
-  --button-color-border-primary-default: hsl(19, 50%, 50%);
-  --button-color-border-primary-hover: hsl(19 50% 35%);
+  --button-color-border-primary-default: #ca212c;
+  --button-color-border-primary-hover: hsl(356 71.9% 32.3%);
   --button-color-border-primary-disabled: hsla( 214, 13%, 74%, 1);
-  --button-color-border-secondary-default: hsla( 214, 13%, 54%, 1);
+  --button-color-border-secondary-default: hsla( 214, 13%, 44%, 1);
   --button-color-border-secondary-disabled: hsla( 214, 13%, 74%, 1);
   --button-color-border-tertiary-default: hsla( 214, 13%, 74%, 1);
   --button-color-border-tertiary-disabled: hsla( 214, 13%, 74%, 1);
+  --button-color-border-primary: #ca212c;
+  --button-color-border-secondary: #110f0f;
+  --button-color-border-tertiary: hsla( 214, 13%, 74%, 1);
   --button-height-large: 40px;
   --button-height-medium: 32px;
   --button-padding-inline-large: 16px;
@@ -135,17 +139,17 @@
   --button-shadow-tertiary-active: inset 0 0 0 4px hsla(214, 13%, 10%, 0.16);
   --button-radius: 4px;
   --filterpane-color-bg: hsla( 214, 13%, 100%, 1);
-  --footer-color-bg: hsla( 214, 13%, 74%, 1);
+  --footer-color-bg: hsla( 214, 13%, 84%, 1);
   --footer-color-fg: hsla( 214, 13%, 34%, 1);
-  --footer-height: 40px;
+  --footer-height: 56px;
   --icon-button-color-bg-primary-default: rgba(255,255,255,0.01);
   --icon-button-color-bg-secondary-default: rgba(255,255,255,0.01);
   --icon-button-color-bg-tertiary-default: rgba(255,255,255,0.01);
-  --icon-button-color-fg-primary: hsl(19, 50%, 50%);
+  --icon-button-color-fg-primary: #ca212c;
   --icon-button-color-fg-secondary: hsla( 214, 13%, 5%, 1);
   --icon-button-color-fg-tertiary: hsla( 214, 13%, 44%, 1);
   --icon-button-color-border-primary-default: hsla( 214, 13%, 74%, 1);
-  --icon-button-color-border-primary-hover: hsl(19, 50%, 50%);
+  --icon-button-color-border-primary-hover: #ca212c;
   --icon-button-color-border-secondary-default: hsla( 214, 13%, 74%, 1);
   --icon-button-color-border-secondary-hover: hsla( 214, 13%, 44%, 1);
   --icon-button-color-border-tertiary-default: hsla( 214, 13%, 74%, 1);
@@ -165,7 +169,7 @@
   --list-item-padding-inline-end: 16px;
   --list-item-border: 1px solid rgba(0,0,0,0);
   --list-item-heading-color-fg: hsla( 214, 13%, 5%, 1);
-  --list-item-heading-font-family: 'Merriweather', serif;
+  --list-item-heading-font-family: 'Titillium Web', sans-serif;
   --list-item-heading-font-weight: 700;
   --list-item-shadow-hover: 0 2px 4px 0 hsla(0, 0%, 0%, 0.4);
   --navbar-color-bg: hsla( 214, 13%, 100%, 1);
@@ -181,16 +185,16 @@
   --searchbar-color-fg-content: hsla( 214, 13%, 5%, 1);
   --searchbar-color-border-normal: hsla( 214, 13%, 94%, 1);
   --searchbar-color-border-hover: hsla( 214, 13%, 74%, 1);
-  --searchbar-color-border-active: hsl(19, 50%, 50%);
+  --searchbar-color-border-active: #ca212c;
   --searchbar-color-border-filled: hsla( 214, 13%, 74%, 1);
-  --searchbar-shadow-focused: inset 0 0 0 3px hsl(19 50% 50% / 0.25);
+  --searchbar-shadow-focused: inset 0 0 0 3px hsl(356 71.9% 46.1% / 0.25);
   --searchbar-radius: 1000px;
   --searchbar-button-color-bg-default: hsla( 214, 13%, 64%, 1);
-  --sidenav-color-bg: hsl(19, 50%, 50%);
+  --sidenav-color-bg: #ca212c;
   --sidenav-color-border: hsla( 214, 13%, 74%, 1);
   --sidenav-item-color-bg-active: hsla( 214, 13%, 100%, 1);
   --sidenav-item-color-bg-default: rgba(255,255,255,0);
-  --sidenav-item-color-fg-active: hsl(19, 50%, 50%);
+  --sidenav-item-color-fg-active: #ca212c;
   --sidenav-item-color-fg-default: hsla( 214, 13%, 100%, 1);
   --toggle-button-color-bg-default: rgba(255,255,255,0.01);
   --toggle-button-color-bg-active: hsla( 214, 13%, 44%, 1);
@@ -220,11 +224,11 @@
   --toggle-group-color-bg: hsl(214 13% 44% / 0.1);
   --toggle-group-color-shadow: hsl(214 13% 44% / 0.12);
   --toggle-group-shadow: inset 0 0 0 1px hsl(214 13% 44% / 0.12);
-  --topbar-color-bg: hsl(216, 45%, 14%);
+  --topbar-color-bg: #110f0f;
   --topbar-color-fg: hsla( 214, 13%, 97%, 1);
-  --topbar-notification-color-bg-default: hsl(216 45% 11.2%);
+  --topbar-notification-color-bg-default: hsl(0 6.25% 5.02%);
   --topbar-notification-color-fg-default: #fcfcfd;
-  --topbar-avatar-color-bg-default: hsl(216 45% 11.2%);
+  --topbar-avatar-color-bg-default: hsl(0 6.25% 5.02%);
   --topbar-avatar-color-fg-default: #fcfcfd;
   --topbar-profile-button-color-bg-default: rgba(0,0,0,0);
   --topbar-badge-color-bg: #fcfcfd;
@@ -241,8 +245,8 @@
   --color-line-light: hsla( 214, 13%, 74%, 1);
   --color-line-medium: hsla( 214, 13%, 64%, 1);
   --color-line-strong: hsla( 214, 13%, 34%, 1);
-  --color-interactive-normal: hsl(19, 50%, 50%);
-  --color-interactive-hover: hsl(19 50% 45%);
-  --color-interactive-active: hsl(19 50% 55%);
-  --color-interactive-subtle: hsl(19 50% 50% / 0.25);
+  --color-interactive-normal: #ca212c;
+  --color-interactive-hover: hsl(356 71.9% 41.5%);
+  --color-interactive-active: hsl(356 71.9% 51.5%);
+  --color-interactive-subtle: hsl(356 71.9% 46.1% / 0.25);
 }
