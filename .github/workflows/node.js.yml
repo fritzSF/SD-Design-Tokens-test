@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Step 1 -  Use Node.js ${{ matrix.node-version }}, build design tokens
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
@@ -29,8 +29,7 @@ jobs:
       - run: npm run build:tokens -- --theme=light
       - run: npm run build:tokens -- --theme=dark
 
-      - name: Step 3 - Use the Upload Artifact GitHub Action
-        uses: actions/upload-artifact@v2
-        with: 
-          name: assets-for-download
-          path: build
+      - name: Step 2 - Use the Upload Artifact GitHub Action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Upload new design tokens
