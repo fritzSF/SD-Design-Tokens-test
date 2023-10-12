@@ -313,7 +313,7 @@
   },
   "brand": {
     "primary": {
-      "value": "hsl(19, 50%, 50%)",
+      "value": "hsl(198, 50%, 50%)",
       "type": "color"
     },
     "secondary": {
