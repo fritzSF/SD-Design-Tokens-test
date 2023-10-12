@@ -1,0 +1,43 @@
+{
+  "toggle-group": {
+    "color": {
+      "bg": {
+        "value": "{neutral.500}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "value": "{neutral.500}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.12",
+              "space": "hsl"
+            }
+          }
+        }
+      }
+    },
+    "shadow": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{toggle-group.color.shadow}",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    }
+  }
+}

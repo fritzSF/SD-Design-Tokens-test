@@ -14,6 +14,10 @@
           "value": "{color.interactive.active}",
           "type": "color"
         },
+        "primary-disabled": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
         "secondary-default": {
           "value": "rgba(0,0,0,0.01)",
           "type": "color"
@@ -32,12 +36,29 @@
           "value": "{sd-color.white}",
           "type": "color"
         },
+        "primary-disabled": {
+          "value": "{neutral.125}",
+          "type": "color"
+        },
         "secondary": {
           "value": "{color.text.default}",
           "type": "color"
         },
         "tertiary": {
           "value": "{color.text.muted}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "hsl"
+              }
+            }
+          }
+        },
+        "disabled": {
+          "value": "{neutral.300}",
           "type": "color"
         }
       },
@@ -59,11 +80,23 @@
             }
           }
         },
+        "primary-disabled": {
+          "value": "{button.color.bg.primary-disabled}",
+          "type": "color"
+        },
         "secondary-default": {
           "value": "{neutral.500}",
           "type": "color"
         },
+        "secondary-disabled": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
         "tertiary-default": {
+          "value": "{neutral.200}",
+          "type": "color"
+        },
+        "tertiary-disabled": {
           "value": "{neutral.200}",
           "type": "color"
         }
@@ -74,7 +107,7 @@
         "value": "{dimension.5}",
         "type": "sizing"
       },
-      "small": {
+      "medium": {
         "value": "{dimension.4}",
         "type": "sizing"
       }

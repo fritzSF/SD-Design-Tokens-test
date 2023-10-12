@@ -223,19 +223,19 @@
   },
   "line-height": {
     "xs": {
-      "value": "1",
+      "value": "100%",
       "type": "lineHeights"
     },
     "s": {
-      "value": "1.1",
+      "value": "110%",
       "type": "lineHeights"
     },
     "m": {
-      "value": "1.2",
+      "value": "120%",
       "type": "lineHeights"
     },
     "l": {
-      "value": "1.5",
+      "value": "150%",
       "type": "lineHeights"
     }
   },
@@ -403,6 +403,24 @@
     "medium": {
       "value": "{font-size.base} * 1",
       "type": "fontSizes"
+    },
+    "large": {
+      "value": "{font-size.base} * 1.5",
+      "type": "fontSizes"
+    },
+    "x-large": {
+      "value": "{font-size.base} * 2",
+      "type": "fontSizes"
+    },
+    "xx-large": {
+      "value": "{font-size.base} * 2.5",
+      "type": "fontSizes"
+    }
+  },
+  "text-transform": {
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase"
     }
   }
 }

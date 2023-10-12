@@ -8,7 +8,16 @@
         },
         "hover": {
           "value": "{color.bg.muted-2}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "hsl"
+              }
+            }
+          }
         },
         "focused": {
           "value": "{color.bg.default}",
@@ -64,6 +73,16 @@
     "radius": {
       "value": "{border-radius.full}",
       "type": "borderRadius"
+    },
+    "button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{neutral.300}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }

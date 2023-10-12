@@ -10,6 +10,9 @@
     "Components/filterpane",
     "Components/navbar",
     "Components/icon-button",
+    "Components/toggle-button",
+    "Components/toggle-group",
+    "Components/preview-pane",
     "Theme/light",
     "Theme/dark",
     "Theme/brandone"

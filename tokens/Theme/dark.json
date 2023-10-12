@@ -74,7 +74,7 @@
     },
     "interactive": {
       "normal": {
-        "value": "{sd-color.magenta}",
+        "value": "{sd-color.dark-cyan}",
         "type": "color"
       },
       "hover": {
@@ -125,12 +125,20 @@
           "value": "{sd-color.white}",
           "type": "color"
         },
+        "primary-disabled": {
+          "value": "{neutral.400}",
+          "type": "color"
+        },
         "secondary": {
           "value": "{color.text.default}",
           "type": "color"
         },
         "tertiary": {
           "value": "{neutral.200}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{neutral.500}",
           "type": "color"
         }
       },
@@ -139,7 +147,39 @@
           "value": "{neutral.400}",
           "type": "color"
         },
+        "secondary-disabled": {
+          "value": "{neutral.400}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "hsl"
+              }
+            }
+          }
+        },
+        "tertiary-disabled": {
+          "value": "{neutral.400}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "hsl"
+              }
+            }
+          }
+        },
         "tertiary-default": {
+          "value": "{neutral.600}",
+          "type": "color"
+        }
+      },
+      "bg": {
+        "primary-disabled": {
           "value": "{neutral.600}",
           "type": "color"
         }
@@ -245,6 +285,10 @@
           "value": "{color.interactive.normal}",
           "type": "color"
         },
+        "primary-disabled": {
+          "value": "{color.interactive.normal}",
+          "type": "color"
+        },
         "secondary-default": {
           "value": "{neutral.600}",
           "type": "color"
@@ -318,25 +362,106 @@
   "topbar": {
     "color": {
       "bg": {
-        "value": "{neutral.850}",
-        "type": "color"
+        "value": "{brand.secondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.1",
+              "space": "hsl"
+            }
+          }
+        }
       },
       "fg": {
         "value": "{neutral.050}",
         "type": "color"
+      }
+    },
+    "notification": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{topbar.color.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.1",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sd-color.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{topbar.color.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.1",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sd-color.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "profile-button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "rgba(0,0,0,0.3)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "badge": {
+      "color": {
+        "bg": {
+          "value": "{sd-color.white}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{sd-color.black}",
+          "type": "color"
+        }
       }
     }
   },
   "sidenav": {
     "color": {
       "bg": {
-        "value": "{brand.primary}",
+        "value": "{brand.secondary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "darken",
-              "value": "0.72",
+              "type": "lighten",
+              "value": "0.05",
               "space": "hsl"
             }
           }
@@ -501,6 +626,89 @@
         }
       ],
       "type": "boxShadow"
+    }
+  },
+  "searchbar": {
+    "color": {
+      "bg": {
+        "normal": {
+          "value": "{color.bg.muted-2}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.bg.muted-2}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{color.bg.default}",
+          "type": "color"
+        },
+        "filled": {
+          "value": "{color.bg.muted-1}",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "placeholder": {
+          "value": "#",
+          "type": "color"
+        },
+        "content": {
+          "value": "{color.text.default}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{searchbar.color.bg.normal}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.line.light}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.interactive.normal}",
+          "type": "color"
+        },
+        "filled": {
+          "value": "{color.line.light}",
+          "type": "color"
+        }
+      }
+    },
+    "shadow": {
+      "focused": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.interactive.subtle}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "radius": {
+      "value": "{border-radius.full}",
+      "type": "borderRadius"
+    },
+    "button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{neutral.600}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "neutral": {
+    "base": {
+      "value": "214, 23%,",
+      "type": "color"
     }
   }
 }

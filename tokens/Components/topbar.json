@@ -2,12 +2,84 @@
   "topbar": {
     "color": {
       "bg": {
-        "value": "{neutral.700}",
+        "value": "{brand.secondary}",
         "type": "color"
       },
       "fg": {
         "value": "{neutral.050}",
         "type": "color"
+      }
+    },
+    "notification": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{topbar.color.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.2",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sd-color.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{topbar.color.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.2",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sd-color.white}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "profile-button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "badge": {
+      "color": {
+        "bg": {
+          "value": "{sd-color.white}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{sd-color.black}",
+          "type": "color"
+        }
       }
     }
   }

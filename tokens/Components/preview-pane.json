@@ -1,0 +1,24 @@
+{
+  "preview-pane": {
+    "size": {
+      "large": {
+        "value": "{dimension.60}",
+        "type": "sizing"
+      }
+    },
+    "border": {
+      "value": {
+        "width": "{border-width.2}",
+        "style": "solid",
+        "color": "{color.line.medium}"
+      },
+      "type": "border"
+    },
+    "padding": {
+      "inline": {
+        "value": "{dimension.3}",
+        "type": "spacing"
+      }
+    }
+  }
+}

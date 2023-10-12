@@ -131,7 +131,7 @@
   "topbar": {
     "color": {
       "bg": {
-        "value": "{neutral.700}",
+        "value": "{brand.secondary}",
         "type": "color"
       },
       "fg": {

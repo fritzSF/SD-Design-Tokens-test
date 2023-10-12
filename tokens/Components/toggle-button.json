@@ -1,0 +1,191 @@
+{
+  "toggle-button": {
+    "color": {
+      "bg": {
+        "default": {
+          "value": "rgba(255,255,255,0.01)",
+          "type": "color"
+        },
+        "active": {
+          "value": "{neutral.500}",
+          "type": "color"
+        },
+        "active-disabled": {
+          "value": "{neutral.500}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.6",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.line.strong}",
+          "type": "color"
+        },
+        "default-disabled": {
+          "value": "{color.line.light}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.line.strong}",
+          "type": "color"
+        },
+        "active-disabled": {
+          "value": "{toggle-button.color.bg.active-disabled}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.2",
+                "space": "lch"
+              }
+            }
+          }
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{color.text.muted}",
+          "type": "color"
+        },
+        "default-disabled": {
+          "value": "{color.text.muted-2}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "active": {
+          "value": "{sd-color.white}",
+          "type": "color"
+        },
+        "active-disabled": {
+          "value": "{toggle-button.color.fg.active}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.5",
+                "space": "hsl"
+              }
+            }
+          }
+        }
+      }
+    },
+    "radius": {
+      "value": "{button.radius}",
+      "type": "borderRadius"
+    },
+    "padding": {
+      "inline": {
+        "large": {
+          "value": "{dimension.2}",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{dimension.1-5}",
+          "type": "spacing"
+        }
+      }
+    },
+    "text-transform": {
+      "default": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "no-transform": {
+        "value": "none",
+        "type": "textCase"
+      }
+    }
+  },
+  "toogle-button": {
+    "height": {
+      "large": {
+        "value": "{button.height.large}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{button.height.medium}",
+        "type": "sizing"
+      }
+    },
+    "fontsize": {
+      "large": {
+        "default": {
+          "value": "{font-size.x-small}",
+          "type": "fontSizes"
+        },
+        "no-transform": {
+          "value": "{font-size.small}",
+          "type": "fontSizes"
+        }
+      },
+      "small": {
+        "default": {
+          "value": "11px",
+          "type": "fontSizes"
+        },
+        "no-transform": {
+          "value": "13",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "shadow": {
+      "active": {
+        "default": {
+          "value": {
+            "x": "0",
+            "y": "3",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.2)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "hover": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "rgba(0,0,0,0.16)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "default": {
+        "hover": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "rgba(38,38,38,0.16)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}
